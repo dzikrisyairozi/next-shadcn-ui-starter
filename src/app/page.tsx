@@ -29,7 +29,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <Link href="/components">
+          <Link href="/sandbox">
             <Button size="lg" className="h-11">
               Explore Components
             </Button>
