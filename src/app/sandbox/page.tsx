@@ -14,6 +14,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 import {
+  DataDisplayDemos,
   FeedbackDemos,
   InputDemos,
   LayoutDemos,
@@ -99,6 +100,20 @@ export default function ComponentsPage() {
               </CardHeader>
               <CardContent>
                 <FeedbackDemos />
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="data-display">
+            <Card>
+              <CardHeader>
+                <CardTitle>Data Display Components</CardTitle>
+                <CardDescription>
+                  Components for displaying and visualizing data.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <DataDisplayDemos />
               </CardContent>
             </Card>
           </TabsContent>
