@@ -3,9 +3,12 @@ import type { Config } from 'tailwindcss';
 const config: Config = {
   darkMode: ['class'],
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/lib/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/hooks/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
     extend: {
@@ -59,6 +62,13 @@ const config: Config = {
           '3': 'hsl(var(--chart-3))',
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
+        },
+      },
+      container: {
+        center: true,
+        padding: "2rem",
+        screens: {
+          "2xl": "1400px",
         },
       },
       keyframes: {
