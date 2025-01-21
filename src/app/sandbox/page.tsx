@@ -13,7 +13,7 @@ import {
 } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
-import { InputDemos, LayoutDemos } from './demos';
+import { InputDemos, LayoutDemos, NavigationDemos } from './demos';
 
 export default function ComponentsPage() {
   return (
@@ -66,6 +66,20 @@ export default function ComponentsPage() {
               </CardHeader>
               <CardContent>
                 <LayoutDemos />
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="navigation">
+            <Card>
+              <CardHeader>
+                <CardTitle>Navigation Components</CardTitle>
+                <CardDescription>
+                  Components for user navigation and wayfinding.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <NavigationDemos />
               </CardContent>
             </Card>
           </TabsContent>
