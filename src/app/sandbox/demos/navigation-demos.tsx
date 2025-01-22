@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -48,7 +50,7 @@ export function NavigationDemos() {
                 <ul className="grid w-[400px] gap-3 p-6">
                   <li className="row-span-3">
                     <NavigationMenuLink asChild>
-                      <a
+                      <Link
                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                         href="/"
                       >
@@ -59,7 +61,7 @@ export function NavigationDemos() {
                           Beautifully designed components built with Radix UI
                           and Tailwind CSS.
                         </p>
-                      </a>
+                      </Link>
                     </NavigationMenuLink>
                   </li>
                 </ul>
