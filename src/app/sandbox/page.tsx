@@ -120,18 +120,18 @@ export default function ComponentsPage() {
           </TabsContent>
 
           <TabsContent value="overlay">
-              <Card>  
-                <CardHeader>
-                  <CardTitle>Overlay Components</CardTitle>
-                  <CardDescription>
-                    Components that overlay the main content area.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <OverlayDemos />
-                </CardContent>
-              </Card>
-            </TabsContent>
+            <Card>
+              <CardHeader>
+                <CardTitle>Overlay Components</CardTitle>
+                <CardDescription>
+                  Components that overlay the main content area.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <OverlayDemos />
+              </CardContent>
+            </Card>
+          </TabsContent>
         </Tabs>
       </div>
     </div>

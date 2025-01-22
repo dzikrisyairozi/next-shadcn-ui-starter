@@ -8,7 +8,7 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     './src/lib/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/hooks/**/*.{js,ts,jsx,tsx,mdx}'
+    './src/hooks/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -66,9 +66,9 @@ const config: Config = {
       },
       container: {
         center: true,
-        padding: "2rem",
+        padding: '2rem',
         screens: {
-          "2xl": "1400px",
+          '2xl': '1400px',
         },
       },
       keyframes: {
@@ -95,6 +95,7 @@ const config: Config = {
       },
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require('tailwindcss-animate')],
 };
 export default config;

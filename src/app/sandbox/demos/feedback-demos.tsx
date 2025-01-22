@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react';
 
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
@@ -18,7 +19,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { useToast } from '@/hooks/use-toast';
 
 export function FeedbackDemos() {
-  const [progress, setProgress] = useState(0);
+  const [progress, setProgress] = useState(13);
   const { toast } = useToast();
 
   return (
@@ -27,7 +28,9 @@ export function FeedbackDemos() {
         <h3 className="text-lg font-medium">Progress</h3>
         <Progress value={progress} className="w-[60%]" />
         <Button
-          onClick={() => setProgress((prev) => (prev + 10) % 100)}
+          onClick={() => {
+            setProgress((prev) => Math.min(100, prev + 10));
+          }}
           className="w-fit"
         >
           Increment Progress
