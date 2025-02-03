@@ -10,7 +10,9 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,md,json,js,jsx,css,scss}\"",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "type:check": "tsc --noEmit",
+    "check-all": "pnpm run type:check && pnpm run lint && pnpm run format:check"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
