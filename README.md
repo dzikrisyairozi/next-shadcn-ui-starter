@@ -1,10 +1,10 @@
 # Next.js + shadcn/ui Starter Kit
 
-A modern, feature-rich starter template built with Next.js 14, Tailwind CSS, TypeScript, and shadcn/ui components.
+A modern, feature-rich starter template built with Next.js 15, Tailwind CSS, TypeScript, and shadcn/ui components.
 
 ## Features
 
-- 🚀 Next.js 14 with App Router
+- 🚀 Next.js 15 with App Router
 - 💅 shadcn/ui Components (40+ pre-built components)
 - 🎨 Tailwind CSS for styling
 - 📝 TypeScript for type safety
@@ -12,6 +12,9 @@ A modern, feature-rich starter template built with Next.js 14, Tailwind CSS, Typ
 - 🧩 Component showcase page
 - 🔍 ESLint and Prettier for code quality
 - 🪝 Husky for Git hooks
+- 📜 Commitlint for consistent commit messages
+- 🔄 GitHub Actions CI/CD workflow
+- ✅ Automated branch checks and tests
 - 📱 Fully responsive design
 - 🎯 Path aliases (@/ based imports)
 - 📦 Organized project structure
@@ -23,25 +26,40 @@ A modern, feature-rich starter template built with Next.js 14, Tailwind CSS, Typ
 
 ## Getting Started
 
-1. Clone the repository:
+You can start using this template in two ways:
 
-```
-git clone https://github.com/dzikrisyairozi/next-shadcn-ui-starter.git
-```
+1. Use as template via GitHub web interface:
 
-2. Install dependencies:
+   - Visit https://github.com/dzikrisyairozi/next-shadcn-ui-starter
+   - Click the "Use this template" button
+   - Choose "Create a new repository"
+   - Follow the prompts to create your repository
 
-```
-pnpm install
-```
+2. Create from template using CLI:
 
-3. Run the development server:
+   ```bash
+   npx create-next-app@latest your-app-name -e https://github.com/dzikrisyairozi/next-shadcn-ui-starter
+   ```
 
-```
-pnpm dev
-```
+   or clone the repository:
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+   ```bash
+   git clone https://github.com/dzikrisyairozi/next-shadcn-ui-starter.git
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   pnpm dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
@@ -60,7 +78,7 @@ next-shadcn-ui-starter/
 
 ## Available Scripts
 
-```
+```bash
 pnpm dev        # Start development server
 pnpm build      # Build for production
 pnpm start      # Start production server
@@ -101,7 +119,7 @@ The default theme can be customized in `src/app/globals.css`:
 
 1. Use shadcn/ui CLI to add new components:
 
-```
+```bash
 pnpm dlx shadcn-ui@latest add button
 ```
 
