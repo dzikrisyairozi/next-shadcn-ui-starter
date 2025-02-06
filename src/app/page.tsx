@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { ThemeToggle } from '@/components/theme-toggle';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -44,6 +45,9 @@ export default function Home() {
               View Documentation
             </Button>
           </Link>
+          <div className="absolute right-4 top-4">
+            <ThemeToggle />
+          </div>
         </div>
 
         <div className="grid w-full max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-3">
