@@ -3,6 +3,7 @@
 import { ChevronLeft } from 'lucide-react';
 import Link from 'next/link';
 
+import { ThemeToggle } from '@/components/theme-toggle';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -27,12 +28,17 @@ export default function ComponentsPage() {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
-          <Link href="/">
-            <Button variant="ghost" className="gap-2">
-              <ChevronLeft className="h-4 w-4" />
-              Back to Home
-            </Button>
-          </Link>
+          <div className="flex items-center justify-between">
+            <Link href="/">
+              <Button variant="ghost" className="gap-2">
+                <ChevronLeft className="h-4 w-4" />
+                Back to Home
+              </Button>
+            </Link>
+            <div className="">
+              <ThemeToggle />
+            </div>
+          </div>
           <h1 className="mt-4 text-4xl font-bold">Component Showcase</h1>
           <p className="mt-2 text-muted-foreground">
             Explore and interact with all available shadcn/ui components.
