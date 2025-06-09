@@ -55,7 +55,7 @@
     "embla-carousel-react": "^8.6.0",
     "eslint": "8.49.0",
     "eslint-config-next": "15.1.6",
-    "framer-motion": "^12.15.0",
+    "framer-motion": "^12.16.0",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
     "next": "^15.3.3",
@@ -73,13 +73,13 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2",
     "vaul": "^0.9.9",
-    "zod": "^3.25.42"
+    "zod": "^3.25.56"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@typescript-eslint/eslint-plugin": "^8.33.0",
-    "@typescript-eslint/parser": "^8.33.0",
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.4.1",
