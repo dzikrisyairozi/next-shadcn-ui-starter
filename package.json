@@ -55,10 +55,10 @@
     "embla-carousel-react": "^8.6.0",
     "eslint": "8.49.0",
     "eslint-config-next": "15.1.6",
-    "framer-motion": "^12.18.1",
+    "framer-motion": "^12.19.1",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
-    "next": "^15.3.3",
+    "next": "^15.3.4",
     "next-themes": "^0.3.0",
     "postcss": "8.4.49",
     "react": "18.2.0",
@@ -66,7 +66,7 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.58.1",
     "react-resizable-panels": "^2.1.9",
-    "recharts": "^2.15.3",
+    "recharts": "^2.15.4",
     "sonner": "^1.7.4",
     "tailwind-merge": "^2.5.2",
     "tailwindcss": "3.3.3",
@@ -78,15 +78,15 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@typescript-eslint/eslint-plugin": "^8.34.1",
-    "@typescript-eslint/parser": "^8.34.1",
+    "@typescript-eslint/eslint-plugin": "^8.35.0",
+    "@typescript-eslint/parser": "^8.35.0",
     "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.12"
+    "prettier": "^3.6.0",
+    "prettier-plugin-tailwindcss": "^0.6.13"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
