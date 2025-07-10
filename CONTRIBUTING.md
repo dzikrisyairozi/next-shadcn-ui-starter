@@ -31,7 +31,6 @@ pnpm install
 
 1. Make your changes
 2. Follow the coding standards:
-
    - Use TypeScript
    - Follow ESLint rules
    - Format with Prettier

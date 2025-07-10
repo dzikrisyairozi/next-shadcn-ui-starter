@@ -29,7 +29,6 @@ A modern, feature-rich starter template built with Next.js 15, Tailwind CSS, Typ
 You can start using this template in two ways:
 
 1. Use as template via GitHub web interface:
-
    - Visit https://github.com/dzikrisyairozi/next-shadcn-ui-starter
    - Click the "Use this template" button
    - Choose "Create a new repository"
